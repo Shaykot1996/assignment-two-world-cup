@@ -1,0 +1,76 @@
+/* Fonts */
+
+/* Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Top Banner Styles */
+
+.top-banner {
+    background-color: black;
+    display: flex;
+    border-radius: 15px;
+}
+
+.left-side {
+    padding-left: 60px;
+}
+
+.banner-title {
+    color: cyan;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.banner-details {
+    color: cyan;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.banner-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-image: radial-gradient(red, red);
+    padding: 10px 40px;
+    border-radius: 5px;
+    animation-name: link;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+}
+
+@keyframes link {
+    from {
+        color: white;
+        background-image: radial-gradient(rgb(14, 150, 26), rgb(14, 150, 26));
+        padding: 10px 40px;
+        border-radius: 10px;
+    }
+
+    to {
+        font-style: italic;
+        color: cyan;
+        background-image: radial-gradient(hsl(0, 100%, 50%), rgb(255, 0, 0));
+        padding: 20px 50px;
+        border-radius: 15px;
+    }
+}
+
+span {
+    padding-left: 20px;
+}
+
+.right-side {
+    width: 100%;
+}
+
+.right-side img {
+    width: 100%;
+}
