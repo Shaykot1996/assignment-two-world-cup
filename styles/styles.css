@@ -273,6 +273,7 @@ hr {
   -------------------*/
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+
     /*-------------------
           Top Banner  
       -------------------*/
@@ -281,6 +282,7 @@ hr {
         flex-direction: column;
         row-gap: 20px;
     }
+
     .banner-title {
         font-size: 20px;
     }
@@ -294,6 +296,7 @@ hr {
         text-overflow: ellipsis;
         margin-bottom: 20px;
     }
+
     /*-------------------------
         Navigation and Blogs  
       -------------------------*/
@@ -302,12 +305,14 @@ hr {
         flex-direction: column;
         align-items: center;
     }
+
     .blogs {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-top: 40px;
         width: max-content;
     }
+
     /*-------------------
           Footer 
     --------------------*/
@@ -317,4 +322,76 @@ hr {
         text-align: center;
     }
 
+}
+
+/*------------------
+ iPads and Tablets
+ -------------------*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    /*-----------------
+        Top Banner
+     ----------------- */
+    .top-banner {}
+
+    .banner-title {
+        font-size: 22px;
+    }
+
+    .banner-details {
+        font-size: 14px;
+        width: 200px;
+        border: 1px solid royalblue;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 20px;
+    }
+
+    .banner-link {}
+
+    /*-------------------------
+            Navigation and Blogs  
+          -------------------------*/
+    .container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        align-items: center;
+        width: 768px;
+    }
+
+    .navigation-bar {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+        align-items: flex-start;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tablet-mode-only {
+        width: 768px;
+    }
+            
+        
+    .view-all {
+        display: flex;
+        visibility: visible;
+    }
+
+    /*---------------
+                Footer  
+           ---------------*/
+    footer {
+        width: 768px;
+    }
+
+    .contact-info {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
