@@ -219,7 +219,6 @@ span {
 /*-----------------
    Footer Styles 
 -------------------*/
-
 .quote {
     text-align: center;
     font-family: 'Oleo Script Swash Caps', cursive;
@@ -376,8 +375,8 @@ hr {
     .tablet-mode-only {
         width: 768px;
     }
-            
-        
+
+
     .view-all {
         display: flex;
         visibility: visible;
@@ -393,5 +392,57 @@ hr {
     .contact-info {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/*----------------------------
+ Small screen and Laptops
+ ----------------------------- */
+
+@media only screen and (min-width: 769px) and (max-width:1024px) {
+
+    .left-side {
+        width: 50%;
+    }
+
+    .banner-title {
+        font-size: 50px;
+    }
+
+    .banner-details {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .right-side {
+        width: 50%;
+    }
+
+    .right-side img {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .navigation-box {
+        width: max-content;
+    }
+
+    .blog {
+        width: 100%;
+    }
+
+    .blog-thumbnail {
+        width: 100%;
+    }
+
+    .blog-link {
+        width: fit-content;
+    }
+
+    .blog-title {
+        width: min-content;
     }
 }
