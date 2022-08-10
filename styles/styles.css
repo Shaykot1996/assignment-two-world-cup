@@ -332,15 +332,17 @@ hr {
     /*-----------------
         Top Banner
      ----------------- */
-    .top-banner {}
+    .top-banner {
+        width: 768px;
+    }
 
     .banner-title {
-        font-size: 22px;
+        font-size: 40px;
     }
 
     .banner-details {
-        font-size: 14px;
-        width: 200px;
+        font-size: 24px;
+        width: 300px;
         border: 1px solid royalblue;
         white-space: nowrap;
         overflow: hidden;
