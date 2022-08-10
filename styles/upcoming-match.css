@@ -85,9 +85,10 @@ span {
      Navigation Styles 
 -------------------------*/
 .container {
-    padding-top: 40px;
+    padding-top: 80px;
     display: flex;
-    column-gap: 20px;
+    column-gap: 80px;
+    padding-bottom: 80px;
 }
 
 .navigation-box {
@@ -161,7 +162,7 @@ span {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 100px;
-    row-gap: 100px;
+    row-gap: 40px;
 }
 .blog {
     box-shadow: 0 0 15px -10px;
