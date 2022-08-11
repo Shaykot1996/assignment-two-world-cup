@@ -1,238 +1,238 @@
 /* Fonts */
 
 /* Poppins Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
 /* Oleo Script Swash Caps Font */
 
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap");
 
 /* Top Banner Styles */
 
 .top-banner {
-    background-color: black;
-    display: flex;
-    border-radius: 15px;
+	background-color: black;
+	display: flex;
+	border-radius: 15px;
 }
 
 .left-side {
-    padding-left: 60px;
+	padding-left: 60px;
 }
 
 .banner-title {
-    color: cyan;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 70px;
-    margin: 0%;
+	color: cyan;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 70px;
+	margin: 0%;
 }
 
 .banner-details {
-    color: cyan;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    margin: 0%;
+	color: cyan;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin: 0%;
 }
 
 .banner-link {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    background-image: radial-gradient(red, red);
-    padding: 5px 10px;
-    border-radius: 5px;
-    animation-name: link;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0.5s;
-    animation-play-state: running;
-    animation-iteration-count: infinite;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	background-image: radial-gradient(red, red);
+	padding: 5px 10px;
+	border-radius: 5px;
+	animation-name: link;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0.5s;
+	animation-play-state: running;
+	animation-iteration-count: infinite;
 }
 
 @keyframes link {
-    from {
-        color: white;
-        background-image: radial-gradient(rgb(14, 150, 26), rgb(14, 150, 26));
-        padding: 0px 0px;
-        border-radius: 10px;
-    }
+	from {
+		color: white;
+		background-image: radial-gradient(rgb(14, 150, 26), rgb(14, 150, 26));
+		padding: 0px 0px;
+		border-radius: 10px;
+	}
 
-    to {
-        font-style: italic;
-        color: cyan;
-        background-image: radial-gradient(hsl(0, 100%, 50%), rgb(255, 0, 0));
-        padding: 5px 10px;
-        border-radius: 5px;
-    }
+	to {
+		font-style: italic;
+		color: cyan;
+		background-image: radial-gradient(hsl(0, 100%, 50%), rgb(255, 0, 0));
+		padding: 5px 10px;
+		border-radius: 5px;
+	}
 }
 
 span {
-    padding-left: 20px;
+	padding-left: 20px;
 }
 
 .right-side {
-    width: 100%;
+	width: 100%;
 }
 
 .right-side img {
-    width: 100%;
+	width: 100%;
 }
 
 /*----------------------- 
      Navigation Styles 
 -------------------------*/
 .container {
-    padding-top: 80px;
-    display: flex;
-    column-gap: 80px;
-    padding-bottom: 80px;
+	padding-top: 80px;
+	display: flex;
+	column-gap: 80px;
+	padding-bottom: 80px;
 }
 
 .navigation-box {
-    background-color: slategrey;
-    border: 1px solid black;
-    border-radius: 5px;
-    width: max-content;
+	background-color: slategrey;
+	border: 1px solid black;
+	border-radius: 5px;
+	width: max-content;
 }
 
 .navigation-bar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 20px;
 }
 
 .nav-1 {
-    font-family: 'Poppins', sans-serif;
-    color: aqua;
-    font-size: 20px;
-    padding: 10px 40px;
-    text-decoration: none;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    background-color: green;
+	font-family: "Poppins", sans-serif;
+	color: aqua;
+	font-size: 20px;
+	padding: 10px 40px;
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	background-color: green;
 }
 
 .nav-2 {
-    font-family: 'Poppins', sans-serif;
-    color: aqua;
-    font-size: 20px;
-    padding: 10px 40px;
-    text-decoration: none;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    background-color: green;
+	font-family: "Poppins", sans-serif;
+	color: aqua;
+	font-size: 20px;
+	padding: 10px 40px;
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	background-color: green;
 }
 
 .nav-3 {
-    font-family: 'Poppins', sans-serif;
-    color: aqua;
-    font-size: 20px;
-    padding: 10px 40px;
-    text-decoration: none;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: green;
+	font-family: "Poppins", sans-serif;
+	color: aqua;
+	font-size: 20px;
+	padding: 10px 40px;
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: green;
 }
 
 .nav-1:hover {
-    background-color: wheat;
-    color: orangered;
+	background-color: wheat;
+	color: orangered;
 }
 
 .nav-2:hover {
-    background-color: wheat;
-    color: orangered;
+	background-color: wheat;
+	color: orangered;
 }
 
 .nav-3:hover {
-    background-color: wheat;
-    color: orangered;
+	background-color: wheat;
+	color: orangered;
 }
 
 /*-----------------
    Blogs Styles 
 -------------------*/
 .blogs {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 100px;
-    row-gap: 40px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 100px;
+	row-gap: 40px;
 }
 
 .blog {
-    box-shadow: 0 0 15px -10px;
+	box-shadow: 0 0 15px -10px;
 }
 
 .blog-thumbnail {
-    display: flex;
+	display: flex;
 }
 
 .blog-thumbnail p {
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 16px;
+	font-family: "Poppins";
+	font-weight: 700;
+	font-size: 16px;
 }
 
 .blog-details h3 {
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 20px;
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 20px;
 }
 
 /*-----------------
    Footer Styles 
 -------------------*/
 footer {
-    background-color: rgb(232, 105, 82);
+	background-color: rgb(232, 105, 82);
 }
 
 .quote {
-    text-align: center;
-    font-family: 'Oleo Script Swash Caps', cursive;
-    font-style: italic;
-    padding: 40px;
+	text-align: center;
+	font-family: "Oleo Script Swash Caps", cursive;
+	font-style: italic;
+	padding: 40px;
 }
 
 hr {
-    width: 90%;
+	width: 90%;
 }
 
 .contact-info {
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 40px;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 40px;
 }
 
 .contact-info p {
-    font-family: 'Oleo Script Swash Caps', cursive;
-    font-style: italic;
-    font-size: 20px;
+	font-family: "Oleo Script Swash Caps", cursive;
+	font-style: italic;
+	font-size: 20px;
 }
 
 .social-media {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 40px;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 40px;
 }
 
 .fa-facebook {
-    font-size: 30px;
-    padding-right: 20px;
+	font-size: 30px;
+	padding-right: 20px;
 }
 
 .fa-whatsapp {
-    font-size: 30px;
-    padding-right: 20px;
+	font-size: 30px;
+	padding-right: 20px;
 }
 
 .fa-linkedin {
-    font-size: 30px;
+	font-size: 30px;
 }
 
 /*------------------
@@ -244,133 +244,173 @@ hr {
   -------------------*/
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-
-    /*-------------------
+	/*-------------------
           Top Banner  
       -------------------*/
-    .top-banner {
-        display: flex;
-        flex-direction: column;
-        row-gap: 20px;
-    }
+	.top-banner {
+		display: flex;
+		flex-direction: column;
+		row-gap: 20px;
+	}
 
-    .banner-title {
-        font-size: 20px;
-    }
+	.banner-title {
+		font-size: 20px;
+	}
 
-    .banner-details {
-        font-size: 10px;
-        width: 70%;
-        border: 1px solid royalblue;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        margin-bottom: 20px;
-    }
+	.banner-details {
+		font-size: 10px;
+		width: 70%;
+		border: 1px solid royalblue;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		margin-bottom: 20px;
+	}
 
-    /*-------------------------
+	/*-------------------------
         Navigation and Blogs  
     -------------------------*/
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+	.container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 
-    .blogs {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin-top: 40px;
-    }
+	.blogs {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		margin-top: 40px;
+	}
 
-    /*-------------------
+	/*-------------------
               Footer 
         --------------------*/
-    .contact-info {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
+	.contact-info {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-
-    /*-----------------
+	/*-----------------
         Top Banner
      ----------------- */
 
-    .banner-title {
-        font-size: 40px;
-    }
+	.banner-title {
+		font-size: 40px;
+	}
 
-    .banner-details {
-        font-size: 24px;
-        width: 300px;
-        border: 1px solid royalblue;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        margin-bottom: 20px;
-    }
+	.banner-details {
+		font-size: 24px;
+		width: 300px;
+		border: 1px solid royalblue;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		margin-bottom: 20px;
+	}
 
-    /*-------------------------
+	/*-------------------------
                 Navigation and Blogs  
               -------------------------*/
-    .container {
-        justify-content: center;
-        flex-wrap: wrap;
-        row-gap: 40px;
-        max-width: 768px;
-    }
-    .left-section {
-        max-width: 100%;
-    }
+	.container {
+		justify-content: center;
+		flex-wrap: wrap;
+		row-gap: 40px;
+		max-width: 768px;
+	}
+	.left-section {
+		max-width: 100%;
+	}
 
-    .navigation-box {
-        max-width: 100%;
-        margin: 0%;
-    }
-    .navigation-bar {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0 0;
-    }
-    .nav-1 {
-        padding: 10px 10px;
-        font-size: 1rem;
-        margin-bottom: 0%;
-    }
-    .nav-2 {
-        padding: 10px 10px;
-        font-size: 1rem;
-        margin-bottom: 0%;
-    }
-    .nav-3 {
-        padding: 10px 10px;
-        font-size: 1rem;
-        
-    }
+	.navigation-box {
+		max-width: 100%;
+		margin: 0%;
+	}
+	.navigation-bar {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		padding: 0 0;
+	}
+	.nav-1 {
+		padding: 10px 10px;
+		font-size: 1rem;
+		margin-bottom: 0%;
+	}
+	.nav-2 {
+		padding: 10px 10px;
+		font-size: 1rem;
+		margin-bottom: 0%;
+	}
+	.nav-3 {
+		padding: 10px 10px;
+		font-size: 1rem;
+	}
 
-    .blogs {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 40px;
-    }
+	.blogs {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 40px;
+	}
 
-    /*---------------
+	/*---------------
                     Footer  
                ---------------*/
-               footer {
 
-               }    
-
-    .contact-info {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
+	.contact-info {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
-@media only screen and (min-width: 769px) and (max-width:1024px){
-    .container
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	/*------------
+   Top Banner
+------------------*/
+	.top-banner {
+		max-width: 100%;
+	}
+	.left-side {
+		max-width: 50%;
+	}
+	.banner-title {
+		font-size: 2.1rem;
+	}
+	.banner-details {
+		font-size: 0.7rem;
+		margin-bottom: 10px;
+	}
+	.right-side {
+		max-width: 100%;
+	}
+	.right-side img {
+		max-width: 100%;
+	}
+	/*--------------------- Navigation and Blogs
+  --------------------- */
+	.left-section {
+		max-width: 40%;
+	}
+	.navigation-box {
+		width: auto;
+	}
+	.navigation-bar {
+		padding: 0%;
+	}
+	.nav-1 {
+		padding: 5px 10px;
+		margin-bottom: 5px;
+	}
+	.nav-2 {
+		padding: 5px 10px;
+		margin-bottom: 5px;
+	}
+	.nav-3 {
+		padding: 5px 10px;
+	}
+	.blogs {
+		gap: 40px;
+	}
 }
