@@ -414,3 +414,71 @@ hr {
 		gap: 40px;
 	}
 }
+
+/*-------------------------- 
+Desktops and Large Screens 
+----------------------------*/
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+	/*------------
+   Top Banner
+------------------*/
+	.top-banner {
+		max-width: 100%;
+	}
+	.left-side {
+		max-width: 50%;
+	}
+	.banner-title {
+		font-size: 3rem;
+	}
+	.banner-details {
+		font-size: 1rem;
+		margin-bottom: 10px;
+	}
+	.right-side {
+		max-width: 100%;
+	}
+	.right-side img {
+		max-width: 100%;
+	}
+	/*---------------------
+     Navigation and Blogs
+  --------------------- */
+	.left-section {
+		max-width: 40%;
+	}
+	.navigation-box {
+		width: auto;
+	}
+	.navigation-bar {
+		padding: 0%;
+	}
+	.nav-1 {
+		padding: 5px 10px;
+		margin-bottom: 5px;
+	}
+	.nav-2 {
+		padding: 5px 10px;
+		margin-bottom: 5px;
+	}
+	.nav-3 {
+		padding: 5px 10px;
+	}
+	.blogs {
+		gap: 40px;
+	}
+}
+
+@media only screen and (min-width: 1201px) {
+	/*-----------
+     Top Banner
+     ------------ */
+	.top-banner {
+		max-width: 100%;
+	}
+	.banner-details {
+		font-size: 1.3rem;
+		margin-bottom: 20px;
+	}
+}
